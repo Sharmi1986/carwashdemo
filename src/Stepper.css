@@ -1,0 +1,25 @@
+/* Add your custom styles here */
+
+/* Hide the numbers inside the circles */
+.stepper .step .title {
+    display: none;
+  }
+  
+  /* Customize the circle size */
+  .stepper .step {
+    width: 60px; /* Adjust the width to change the circle size */
+    height: 60px; /* Adjust the height to change the circle size */
+    line-height: 30px;
+    font-size: 25px;
+  }
+  
+  /* Customize the active step color */
+  .stepper .step.active {
+    background-color: red; /* Change to your desired color */
+  }
+  
+  /* Customize the completed step color */
+  .stepper .step.complete {
+    background-color: #28a745; /* Change to your desired color */
+  }
+  
